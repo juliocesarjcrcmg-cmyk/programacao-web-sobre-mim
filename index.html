@@ -172,3 +172,62 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Contato</title>
+</head>
+<body>
+
+    <!-- 1. Seção "Entre em contato" -->
+    <section id="contato">
+        <h2>Entre em contato</h2>
+
+        <!-- 2. Formulário utilizando <form> -->
+        <form action="#" method="POST">
+            
+            <!-- 3. Campo Nome utilizando input e 7. Campo com required -->
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            
+            <br>
+
+            <!-- 4. Campo E-mail utilizando input type="email" e 7. Campo com required -->
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <br>
+
+            <!-- 5. Campo Assunto utilizando input -->
+            <div>
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto">
+            </div>
+
+            <br>
+
+            <!-- 6. Campo Mensagem utilizando <textarea> -->
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" cols="30" required></textarea>
+            </div>
+
+            <br>
+
+            <!-- 8. Botão Enviar utilizando button type="submit" -->
+            <button type="submit">Enviar</button>
+
+            <!-- 9. Botão Limpar utilizando button type="reset" -->
+            <button type="reset">Limpar</button>
+
+        </form>
+    </section>
+
+</body>
+</html>
